@@ -1,0 +1,333 @@
+\documentclass[12pt, titlepage=true, toc=bib]{scrartcl}
+
+\usepackage[utf8]{inputenc} 											%Deutsche Silbentrennung
+\usepackage[T1]{fontenc}												%Trennung von Wörtern mit Umlauten
+\usepackage[ngerman]{babel}												%Deutsche Sprachregeln
+
+\usepackage[bitstream-charter]{mathdesign}								%Schriftart
+\usepackage[activate={true,nocompatibility},final,tracking=true,kerning=true,spacing=true,factor=1100,stretch=10,shrink=10]{microtype} 													
+\addtokomafont{disposition}{\normalfont\bfseries}						%Selbe Schriftart für Überschriften
+\usepackage[onehalfspacing]{setspace}									%Zeilenabstand
+
+\usepackage[backend=biber, style=authoryear, doi=false, isbn=false]{biblatex}		%Literaturverwaltung
+\usepackage[babel,german=quotes]{csquotes}								%Formatierung für Anführungszeichen
+\addbibresource{Rechtsextremismus_und_Gender.bib}
+\renewcommand{\labelnamepunct}{\addcolon\addspace}						%Formatiert die Zitationsklammern
+\renewcommand{\postnotedelim}{\addcolon\addspace}
+\DeclareFieldFormat{postnote}{#1}
+\DeclareFieldFormat{multipostnote}{#1}
+\AtBeginBibliography{%													%Macht den Namen im Literaturverzeichnis Fett
+  \renewcommand*\mkbibnamefirst[1]{\bfseries{#1}}
+  \renewcommand*\mkbibnamelast[1]{\bfseries{#1}}
+  \renewcommand*\mkbibnameprefix[1]{\bfseries{#1}}
+  \renewcommand*\mkbibnameaffix[1]{\bfseries{#1}}
+}
+\setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}			%Leerzeile zwischen den Einträgen im Literaturverzeichnis
+\renewcommand{\multinamedelim}[0]{/}									%Schrägstrich bei zwei Autor*innen
+\renewcommand{\finalnamedelim}[0]{/}
+
+
+%\usepackage[left=2.5cm, right=3.5cm,]{geometry}							%Seitenränder
+
+\begin{document}
+
+\titlehead{Freie Universität Berlin\\
+			FB Politik- und Sozialwissenschaften\\
+			Otto-Suhr-Institut\\
+			Sommersemester 2016\\
+			{[}GEND{]} Rechtsextremismus und Gender: Geschichte und Gegenwart (15095)\\
+			Carmen Altmeyer, Till Herold}
+\author{Astrid Ursprung\and Ole Fechner}
+\title{Catchy Title}
+\subtitle{Mega wissenschaftlicher Untertitel oder Fragestellung}
+\date{\normalsize{Berlin, den \today}}
+
+\publishers{\normalsize{Goltzstr. 13\hfill Gerichtstr. 13\\
+							 10781 Berlin\hfill 13347 Berlin\\
+							 ursprung@posteo.de\hfill ole.fechner@fu-berlin.de\\
+							 Matrikelnummer: 4768210\hfill Matrikelnummer: 4757766\\
+							 BA Politikwissenschaft\hfill BA Politikwissenschaft}}
+
+
+\maketitle[0]
+
+\newpage
+\thispagestyle{empty}
+\tableofcontents
+
+\newpage
+\setcounter{page}{1}
+
+
+\section{Operationalisierung und Methode}
+
+
+
+\subsection{Qualitative Inhaltsanalyse}
+
+Philipp Mayring benennt als Spezifika der qualitativen Inhaltsanalyse eine systematische, regel- und theoriegeleitete Analyse einer fixierten Kommunikation, mit dem Ziel Rückschlüsse auf bestimmte Aspekte eben dieser Kommunikation zu ziehen (vgl. \cite[13]{mayring_qualitative_2010}). Wichtig ist in erster Linie der Vorrang den inhaltliche Argumente gegenüber Verfahrensargumenten einnehmen, die Verfahren sollen sich immer am Material orientieren und müssen daher stets für die jeweilige Forschungsfrage angepasst werden. Wie die jeweilige Technik konkret ausgestaltet wird, muss theoriegeleitet begründet werden, was vor allem für die Explikation der Fragestellung gilt (vgl. \cite[50-51]{mayring_qualitative_2010}). Mayring betont, dass die Inhaltsanalyse keine "`freie"' Interpretation ist, sondern jeder Analyseschritt durch im Vorhinein festgelegte Regeln intersubjektiv nachvollziehbar sein muss. Im Zentrum der Analyse steht das \textit{Kategoriensystem}, dessen Konstruktion und Anwendung interpretativ erfolgt und das eine Vergleichbarkeit der Ergebnisse überhaupt erst ermöglicht (vgl. \cite[49]{mayring_qualitative_2010}). Margrit Schreier sieht in der Fokussierung auf Kategorien das zentrale Differenzierungsmerkmal gegenüber anderen qualitativen Methoden (vgl. \cite[3]{schreier_varianten_2014}).
+
+In dieser Arbeit wird die Variante der inhaltlich-strukturierenden Inhaltsanalyse nach Mayring mit einigen methodischen Ergänzungen von Margrit Schreier angewendet, wobei das Kategoriensystem vollständig induktiv mit der Technik der zusammenfassenden Inhaltsanalyse nach Mayring erstellt wird (vgl. \cite{mayring_qualitative_2010}; \cite{schreier_varianten_2014}). Beide Wissenschaftler*innen sehen die strukturierende Variante der Inhaltsanalyse als die zentrale und definieren diese nahezu identisch:
+
+\begin{singlespace*}
+\begin{quote}
+"`Kern der inhaltlich-strukturierenden Vorgehensweise ist es, am Material ausgewählte inhaltliche Aspekte zu identifizieren, zu konzeptualisieren und das Material im Hinblick auf solche Aspekte systematisch zu beschreiben. [...] Diese Aspekte bilden zugleich die Struktur des Kategoriensystems; die verschiedenen Themen werden als Kategorien des Kategoriensystems expliziert"' (\cite[5]{schreier_varianten_2014}).
+\end{quote}
+\end{singlespace*}
+
+\noindent Es gibt nun unterschiedliche Möglichkeiten das Kategoriensystem zu erstellen. Üblicherweise werden deduktiv Oberkategorien gebildet und anschließend induktiv Unterkategorien durch Subsumtion diesen Oberkategorien zugeordnet.\footnote{Mayring lässt an dieser Stelle keine induktive Kategorienbildung zu, vgl. kritisch dazu \textcite[Kap. II.4]{steigleder_strukturierende_2008}.} Da diese Arbeit allerdings einen Pre-Test für eine längere Forschung darstellt und überprüft werden soll, inwiefern die Theorie Theweleits überhaupt geeignet ist, unbewusste Strukturen in der medialen Darstellung Lynndie Englands zu erklären, soll hier ein rein induktives Verfahren zur Entwicklung von Kategorien angewendet werden. Anschließend wird versucht diese Kategorien mithilfe des oben beschriebenen Bildes des \textit{Flintenweibs} zu erklären.
+
+Als Verfahren zur Kategorienbildung wird die zusammenfassende Inhaltsanalyse verwendet (vgl. \cite[Kap. 5.5.2]{mayring_qualitative_2010}). Mayring sieht die Zusammenfassung als eigene Grundform der qualitativen Inhaltsanalyse, was in der Literatur allerdings umstritten ist. Schreier sieht diese eher als Möglichkeit "`für die Generierung inhaltlich-thematischer Kategorien im Rahmen eines qualitativ-strukturierten inhaltsanalytischen Vorgehens"' (\cite[14]{schreier_varianten_2014}).\footnote{Eine Tabelle mit den Zusammenfassungen, sowie die Codings werden vorgehalten und können beim Autor nachgefragt werden.} In diesem Sinne induktiv angewendet, ermöglicht die zusammenfassende Inhaltsanalyse eine Kategorienbildung auch außerhalb des durch die Theorie Erklärbaren. Sollten also im Rahmen der Analyse nun Bilder auftauchen, welche nicht mit der Theorie erklärt werden können, kann davon ausgegangen werden, dass diese nicht zum Verständnis ausreicht.
+
+Um die Nachvollziehbarkeit der Analyse zu gewährleisten, folgt die inhaltlich-strukturierende Inhaltsanalyse einem vorher festgelegten Ablaufmodell. Zunächst wird das Ausgangsmaterial bestimmt und in ein Kommunikationsmodell eingeordnet, wobei vor allem die Festlegung, Entstehungssituation und formale Charakteristika erläutert werden (vgl. \cite[52-53]{mayring_qualitative_2010}). Anschließend wird kurz die Richtung der Analyse anhand des Materials erläutert, um dann mit dem Verfahren der zusammenfassenden Inhaltsanalyse das Kategoriensystem zu erstellen, welches in einem letzten Schritt systematisch, unter Rückbezug auf die Theorie beschrieben wird.
+
+\subsection{Ausgangsmaterial und Analyserichtung}
+
+Als Analysematerial wurden fünf Zeitungsartikel aus drei US-Amerikanischen Tageszeitungen -- der \textit{New York Times} (NYT), der \textit{Washington Post} (WP) und der \textit{New York Daily News} (NYDN) -- festgelegt. Die Zeitungen wurden dabei nach Auflagenstärke, Reichweite und Online-Verfügbarkeit der Artikel ausgewählt.\footnote{So sind die Artikel der auflagenstärksten Tageszeitung in den USA, des \textit{Wall Street Journal}, nicht kostenlos online verfügbar.} Zur Auswahl der Artikel wurde der Suchbegriff \textit{"Lynndie * England"} in die Suchmaske auf der jeweiligen Homepage eingegeben, wobei als Erscheinungszeitraum April 2004 (dem Monat des Bekanntwerdens der Ereignisse) bis 04. Oktober 2005 (eine Woche nach Englands Verurteilung) festgelegt wurde. In einem ersten Schritt wurden alle Artikel, die sich nicht mit Spekulationen über die Motive Englands beschäftigen, aussortiert. Bei der spezifischen Auswahl der fünf vorliegenden Artikel stand vor allem die Anschaulichkeit im Vordergrund, wobei versucht wurde aus allen drei Zeitungen etwa die gleiche Anzahl an Artikeln zu analysieren. Die Auswahl kann daher nicht als repräsentativ gelten. Die Artikel wurden alle von Berufjournalist*innen verfasst, liegen als PDF-Datei vor und wurden mit dem Analyseprogramm \textit{MAXQDA} kodiert.
+
+Zentrales Erkenntnisinteresse dieser Arbeit ist, inwiefern bei der medialen Darstellung Lynndie Englands das Bild des \textit{Flintenweibs} nach Theweleit unbewusst wirkt und inwiefern dieser Erklärungsansatz nicht ausreicht. Die Richtung der Analyse ist daher durch den Text Aussagen über unbewusste Strukturen bei den Kommunikator*innen, also den Autor*innen der Artikel, zu machen. Dabei geht es nicht um eine konkrete Psychoanalyse der Autor*innen, sondern es sollen unter Zuhilfenahme von Konzepten aus der Psychoanalyse Aussagen über unbewusste kulturelle Prägungen getroffen werden.
+
+\subsection{Das Kategoriensystem}
+
+Das Ablaufmodell zur Entwicklung des Kategoriensystems stellt sich wie folgt dar: Zunächst werden die Analyseeinheiten, also Kodier-, Kontext- und Auswertungseinheit festgelegt. Anschließend werden die inhaltstragenden Textstellen markiert und in Kategorien zusammengefasst, wobei jede neue Textstelle, wenn diese schon durch eine Kategorie abgedeckt ist, einer schon vorhandenen Kategorie zugeordnet wird. Ist dies nicht der Fall, wird eine neue Kategorie erstellt. So wird das Material verdichtet und kann über mehrere Aussagen hinweg zusammen gefasst werden. Schreier nennt dieses Verfahren zur induktiven Kategorienbildung "`Subsumtion"' (\cite[7]{schreier_varianten_2014}). Die Kategorien werden dann systematisiert und wenn möglich und sinnvoll unter Oberkategorien zusammengefasst und analysiert.
+
+Bei der zusammenfassenden Inhaltsanalyse fallen Kontext- und Auswertungseinheit zusammen (vgl. \cite[71]{mayring_qualitative_2010}), sie definieren, welches der größte Textbestandteil ist, der unter eine Kategorie fallen kann (vgl. \cite[59]{mayring_qualitative_2010}). Da die Analyse durch die psychoanalytische Herangehensweise stark vom Individuum aus Schlüsse zieht, wurde diese Einheit auf den einzelnen Artikel festgelegt. Die Kodiereinheit "`legt fest, [...] was der minimale Textteil ist, der unter eine Kategorie fallen kann"' (\cite[59]{mayring_qualitative_2010}) und ist in diesem Fall jede vollständige Aussage über Lynndie Englands Person, Motivation und Verhältnis zu anderen Personen.
+
+
+
+\newpage
+
+\printbibheading[title=Literaturverzeichnis]
+\printbibliography[heading=subbibliography, keyword={Quelle}, title={Quellen}]
+\printbibliography[heading=subbibliography, notkeyword={Quelle}]
+\newpage
+
+\appendix
+
+\addpart{\appendixname}
+
+\section{Kodierleitfaden}
+
+\subsection*{Kategoriensystem}
+
+{\raggedright
+
+\vspace{3pt} \noindent
+\begin{tabular}{p{145pt}p{10pt}}
+\parbox{145pt}{\raggedright 
+{\small \textbf{1 (Un-)Weiblichkeit}}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      1.1 Aussehen}
+} & \parbox{10pt}{\raggedright 
+{\small 3}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      1.2 Sexuelle Aktivität}
+} & \parbox{10pt}{\raggedright 
+{\small 3}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      1.3 Schwangerschaft}
+} & \parbox{10pt}{\raggedright 
+{\small 4}
+} \\
+\hline
+\parbox{150pt}{\raggedright 
+{\small \textbf{2 Absprechen von Rationalität}}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      2.1 Geringes Alter}
+} & \parbox{10pt}{\raggedright 
+{\small 6}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      2.2 Geistige Beeinträchtigung}
+} & \parbox{10pt}{\raggedright 
+{\small 9}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      2.3 Soziale Herkunft}
+} & \parbox{10pt}{\raggedright 
+{\small 4}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small \textbf{3 Emotionen}}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      3.1 Scherz}
+} & \parbox{10pt}{\raggedright 
+{\small 3}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      3.2 Zeigt Ausdruck von Freude}
+} & \parbox{10pt}{\raggedright 
+{\small 2}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      3.3 Genuss}
+} & \parbox{10pt}{\raggedright 
+{\small 4}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      3.4 Sadismus}
+} & \parbox{10pt}{\raggedright 
+{\small 9}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small \textbf{4 Dämonisierung}}
+} & \parbox{10pt}{\raggedright 
+{\small 2}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small \textbf{5 Zeigen auf Genitalien}}
+} & \parbox{10pt}{\raggedright 
+{\small 4}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small \textbf{6 Leine}}
+} & \parbox{10pt}{\raggedright 
+{\small 7}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small \textbf{7 Verhältnis zu/mit Graner}}
+} & \parbox{10pt}{\raggedright 
+{\small 12}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small \textbf{8 Einfluss von Anderen}}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      8.1 Ist überredet worden}
+} & \parbox{10pt}{\raggedright 
+{\small 7}
+} \\
+\hline
+\parbox{145pt}{\raggedright 
+{\small      8.2 Hat Befehle ausgeführt}
+} & \parbox{10pt}{\raggedright 
+{\small 2}
+} \\
+\hline
+\end{tabular}
+\vspace{2pt}
+
+}
+
+\newpage
+
+\subsection*{1 (Un-)Weiblichkeit}
+
+Alle Kategorien, welche in Bezug zu Englands zugeschriebener (Un-)Weiblichkeit stehen.
+
+\subsubsection*{1.1 Aussehen}
+
+Kodiert werden alle Aussagen, welche Englands Äußere Erscheinung zum Inhalt haben.\\
+Ankerbeispiel: "`And you can see -- can't you? -- what no one will testify to: She's homely -- and that matters for a woman in America"' (\cite[1]{cohen_victimizer_2005}).
+
+\subsubsection*{1.2 Sexuelle Aktivität}
+
+Kodiert werden alle Aussagen, bei denen explizit sexuelle Handlungen Englands erwähnt werden. Nicht kodiert werden Aussagen, die nur darauf schließen lassen.\\
+Ankerbeispiel: "`An investigator described photographs of Private England topless and engaged in what he called oral sex"' (\cite[2]{zernike_conflict_2004}).
+
+\subsubsection*{1.3 Schwangerschaft}
+
+Kodiert werden alle Aussagen, die auf ihre Schwangerschaft hinweisen.\\
+Ankerbeispiel: "`Private England, wearing a maternity version of military camouflage, appeared to suppress a smile as investigators described a videotape that showed her having sex with Cpl. Charles Graner, who prosecutors say was a ringleader of the abuse and Private England says is the father of the child she is carrying"' (\cite[2]{zernike_conflict_2004}).
+
+\subsection*{2 Absprechen von Rationalität}
+
+Alle Kategorien, welche England rationales Handeln absprechen.
+
+\subsubsection*{2.1 Geringes Alter}
+
+Alle Aussagen, die Tatmotive auf Englands Alter zurückführen. Nicht kodiert wird, wenn einfach nur ihr Alter angegeben wird.\\
+Ankerbeispiel: \enquote{\enquote{Of course she regrets things,} he added. \enquote{Every one of us regrets things in our teens and 20's}} (\cite[3]{zernike_conflict_2004}).
+
+\subsubsection*{2.2 Geistige Beeinträchtigung}
+
+Kodiert werden alle Aussagen, die auf eine mögliche geistige Beeinträchtigung Englands in der Gegenwart oder Vergangenheit eingehen.\\
+Ankerbeispiel: "`Captain Crisp said the psychologist would describe what he said were learning disabilities that prevented her from speaking with normal regularity until she was 8. [...] Those problems [...] contributed to her involvement in the abuse, he said."' (\cite[2-3]{cloud_g.i.s_2005}). 
+
+\subsubsection*{2.3 Soziale Herkunft}
+
+Kodiert werden alle Aussagen, die auf Englands Jugend in dörflichen Verhältnissen oder ihre einfache Schulbildung verweisen.\\
+Ankerbeispiel: "`A railroad worker's daughter, England was reared on a dirt road behind a sheep farm in the one-stoplight town"' (\cite[2]{cohen_victimizer_2005})
+
+\subsection*{3 Emotionen}
+
+Alle Kategorien, die Emotionen von England im Gerichtsaal oder bei der Tat beschreiben.
+
+\subsubsection*{3.1 Scherz}
+
+Kodiert werden alle Aussagen, die England Spaß bei der Tat unterstellen. Nicht Kodiert wird bei explizit sexuellen Komponenten.\\
+Ankerbeispiel: \enquote{Referring to England's statement in January 2004 to Army investigators that the mistreatment was a form of amusement for military guards, Capt. Chris Graveline, the chief prosecutor, said: \enquote{The accused knew what she was doing. She was laughing and joking. She is enjoying, she is participating, all for her own sick humor}} (\cite[1]{gerstenzang_female_2005}).
+
+\subsubsection*{3.2 Zeigt Ausdruck von Freude}
+
+Kodiert werden alle Aussagen, über England in denen Ausdrücke von Freude bei ihr vorkommen. Nicht kodiert wird, wenn die Freude in einen Zusammenhang mit Sex gestellt wird.\\
+Ankerbeispiel: "`Military prosecutors pointed to numerous photos in which she was shown smiling and flashing thumbs up, or posing in front of naked and bound male detainees"' (\cite[1]{gerstenzang_female_2005}).
+
+\subsubsection*{3.3 Genuss}
+
+Kodiert werden alle Aussagen, in denen England als genießend dargestellt wird.\\
+Ankerbeispiel: "`In yet another, England was seen with a cigarette dangling from her lips and pointing at the genitals of other unclothed inmates"' (\cite[2]{becker_face_2004}).
+
+\subsubsection*{3.4 Sadismus}
+
+Kodiert werden alle Aussagen bei denen England Sadismus unterstellt wird.\\
+Ankerbeispiel: "`Small-town sadist"' (\cite[2]{becker_face_2004}).
+
+\subsection*{4 Dämonisierung}
+
+Kodiert werden alle Aussagen, die England als das absolut Böse darstellen.\\
+Ankerbeispiel: "`Sadistic she-devil"' (\cite[1]{becker_face_2004}).
+
+\subsection*{5 Zeigen auf Genitalien}
+
+Kodiert werden alle Aussagen bei denen explizit darauf hingewiesen wird, dass England auf die Genitalien von Häftlingen zeigt.\\
+Ankerbeispiel: "`In yet another, England was seen with a cigarette dangling from her lips and pointing at the genitals of other unclothed inmates"' (\cite[2]{becker_face_2004}).
+
+\subsection*{Leine}
+
+Kodiert werden alle Aussagen, die Bilder von England mit einer Leine darstellen.\\
+Ankerbeispiel: "`Lynndie R. England, the Army Reserve private who became a symbol of the Abu Ghraib prisoner abuse scandal after she was photographed holding a dog leash attached to a naked Iraqi detainee, was convicted Monday on six of seven charges at a military court-martial"' (\cite[1]{gerstenzang_female_2005}).
+
+\subsection*{Verhältnis zu/mit Graner}
+
+Kodiert werden alle Aussagen, die auf Englands Verhältnis zu Graner eingehen.\\
+Ankerbeispiel: \enquote{Of Private Graner's influence, he added, \enquote{Those pictures don't show the absolute amazing trust she placed in him because she loved him}} (\cite[1]{cloud_g.i.s_2005}).
+
+\subsection*{8 Einfluss von Anderen}
+
+Alle Kategorien, die implizieren, dass England unter dem Einfluss Dritter gehandelt hat.
+
+\subsubsection*{8.1 Hat Befehle ausgeführt}
+
+Kodiert werden alle Aussagen, die unterstellen, dass England auf Befehl gehandelt hat.\\
+Ankerbeispiel: \enquote{Private England's lawyers [...] have said she was acting on orders from military intelligence to \enquote{loosen up} detainees so they would say more in interrogations} (\cite[2]{zernike_conflict_2004}).
+
+\subsubsection*{8.2 Ist überredet worden}
+
+Kodiert werden alle Aussagen, die unterstellen, dass England zu der Tat überredet wurde. Kodiert werden keine Aussagen, die unterstellen, dass sie auf Befehl gehandelt hat.\\
+Ankerbeispiel: "`Her defense attorneys maintained that she was easily manipulated"' (\cite[1]{gerstenzang_female_2005}).
+
+
+\end{document}
