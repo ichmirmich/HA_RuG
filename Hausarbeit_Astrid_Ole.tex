@@ -10,24 +10,20 @@
 \usepackage[onehalfspacing]{setspace}									%Zeilenabstand
 
 \usepackage[backend=biber, style=authoryear, doi=false, isbn=false]{biblatex}		%Literaturverwaltung
-\usepackage[babel,german=quotes]{csquotes}								%Formatierung für Anführungszeichen
+\usepackage[babel, german=quotes]{csquotes}								%Formatierung für Anführungszeichen
 \addbibresource{Rechtsextremismus_und_Gender.bib}
 \renewcommand{\labelnamepunct}{\addcolon\addspace}						%Formatiert die Zitationsklammern
 \renewcommand{\postnotedelim}{\addcolon\addspace}
 \DeclareFieldFormat{postnote}{#1}
 \DeclareFieldFormat{multipostnote}{#1}
-\AtBeginBibliography{%													%Macht den Namen im Literaturverzeichnis Fett
-  \renewcommand*\mkbibnamefirst[1]{\bfseries{#1}}
-  \renewcommand*\mkbibnamelast[1]{\bfseries{#1}}
-  \renewcommand*\mkbibnameprefix[1]{\bfseries{#1}}
-  \renewcommand*\mkbibnameaffix[1]{\bfseries{#1}}
-}
+
+
 \setlength{\bibitemsep}{0.5\baselineskip plus 0.5\baselineskip}			%Leerzeile zwischen den Einträgen im Literaturverzeichnis
 \renewcommand{\multinamedelim}[0]{/}									%Schrägstrich bei zwei Autor*innen
 \renewcommand{\finalnamedelim}[0]{/}
 
 
-%\usepackage[left=2.5cm, right=3.5cm,]{geometry}							%Seitenränder
+\usepackage[left=2.5cm, right=3.5cm,]{geometry}							%Seitenränder
 
 \begin{document}
 
