@@ -26,7 +26,9 @@
 %\usepackage{float}
 %\usepackage[section]{placeins}																%Paket, um Grafiken davon abzuhalten, außerhalb bestimmter grenzen zu floaten [section]: verbietet gleiten außerhalb der Section
 \usepackage{caption}																			%zum Formatieren der Bildunterschriften
-\captionsetup{format=plain, indention=0.5cm, justification=raggedright, singlelinecheck=off, font=small}
+\captionsetup{format=plain, indention=0cm, justification=raggedright, singlelinecheck=off, font={small, singlespacing}}
+\captionsetup[figure]{name=Abb. }
+\captionsetup[table]{name=Tab. }
 
 %\clubpenalty=10000 %verbietet Schusterjungen
 \widowpenalty=10000 %verbietet Hurenkinder
@@ -157,6 +159,7 @@ Bei der qualitativen Inhaltsanalyse wurden den einzelnen Aussagen über Vorstell
 \begin{figure}[!hb]
 \centering
 \includegraphics[width=0.95\linewidth]{absolutevorkommen}% die Breite des eingefügten Bildes entspricht 95% einer Zeilenlänge
+\captionsetup{width=0.95\linewidth}
 \caption{Absolute Vorkommen}
 \end{figure}
  
@@ -164,18 +167,13 @@ Bei der qualitativen Inhaltsanalyse wurden den einzelnen Aussagen über Vorstell
 
 Um diese Struktur genauer untersuchen zu können und einen möglichen Einfluss des neu hinzugekommenen Moments zu erkennen, wurde im Anschluss eine \textit{Simultanzanalyse} mit den festgestellten Momenten für die Jahre 1936 und 1941 durchgeführt. Als Ausgangskategorien hierfür dienten die quantitativ am häufigsten vorgefundenen Kategorien: \textit{Sorgearbeit, Mutter, Ehe, Berufstätigkeit} und \textit{Pflichtbewusstsein}.
 
-\begin{figure}[!hb] %versucht das Bild, an einer möglichst günstigen Stelle einzufügen
-\caption{Simultanzen der Kategorien \textit{Sorgearbeit, Mutter, Ehe, Berufstätigkeit} und \textit{Pflichtbewusstsein} mit allen anderen Kategorien}
-\centering
-<<<<<<< HEAD
-\includegraphics[width=1\linewidth]{simultanzen}% die Breite des eingefügten Bildes entspricht 80% einer Zeilenlänge
-\caption{AV = Absolutes Vorkommen eines Codes im gesamten Sample der Zeitung\\SI = Simultanzen: Quantität des simultanen Vorkommens mit anderen Codes\\Die Simultanz wird dann grau markiert, wenn der Vergleichscode mindestens zu 50\% seines absoluten Vorkommens (AV) mit dem Ausgangscode überlappt.} 
-=======
-\includegraphics[width=0.9\linewidth]{simultanzenuber}% die Breite des eingefügten Bildes entspricht 80% einer Zeilenlänge
+\begin{table}[!hb] %versucht das Bild, an einer möglichst günstigen Stelle einzufügen
 \captionabove{Simultanzen der Kategorien \textit{Sorgearbeit, Mutter, Ehe, Berufstätigkeit} und \textit{Pflichtbewusstsein} mit allen anderen Kategorien}
-%\captionbelow{AV = Absolutes Vorkommen eines Codes im gesamten Sample der Zeitung\\SI = Simultanzen: Quantität des simultanen Vorkommens mit anderen Codes\\Die Simultanz wird dann grau markiert, wenn der Vergleichscode mindestens zu 50\% seines absoluten Vorkommens (AV) mit dem Ausgangscode überlappt.}
->>>>>>> origin/master
-\end{figure}
+\centering
+\includegraphics[width=1\linewidth]{simultanzen}% die Breite des eingefügten Bildes entspricht 80% einer Zeilenlänge
+%\captionsetup{indention=0cm}
+\caption*{AV = Absolutes Vorkommen eines Codes im gesamten Sample der Zeitung\\SI = Simultanzen: Quantität des simultanen Vorkommens mit anderen Codes\\Die Simultanz wird dann grau markiert, wenn der Vergleichscode mindestens zu 50\% seines absoluten Vorkommens (AV) mit dem Ausgangscode überlappt.} 
+\end{table}
 
 \noindent Die Tabelle zeigt die Simultanzen der gewählten Ausgangskategorien jeweils für die Jahrgänge 1936 und 1941. Auffällig ist zunächst, dass keine von ihnen mehrere andere Kategorien an sich bindet, also keine der Ausgangskategorien starke Simultanzen mit vielen Vergleichskategorien aufweist. Es gibt also keine weiteren starken Knotenpunkte, die den Diskurs um Weiblichkeit strukturieren. Einzige Ausnahme bilden die Momente \textit{Ehe} und \textit{Mutter} nach Kriegsbeginn, sie treten häufiger simultan in Erscheinung als vorher und binden außerdem die Kategorie \textit{Häuslichkeit} stärker an sich. Die \textit{äquivalenzierende Simultanz} von \textit{Ehe} und \textit{Mutter} zeigt eine Äquivalenzkette der beiden Momente an. Zeitgleich weisen beide Kategorien 1941 die meisten Simultanzen auf, sie strukturieren den Diskurs damit am stärksten. Das "`klassische"' weibliche Rollenbild als (verheiratete) Hausfrau und Mutter taucht also nach Kriegsbeginn deutlich stärker auf als vorher, was allerdings auch an der Größe des Samples liegen kann. Eine Studie mit mehr Artikeln könnte die Ergebnisse dieser Analyse noch etwas verschieben.
 
@@ -190,11 +188,11 @@ Da sich hier unter dem gleichen Knotenpunkt zwei antagonisierende Äquivalenzket
 
 \section{Fazit}
 
-Durch die Analyse ausgewählter Artikel der NS-Frauenwarte konnten nicht nur die Knotenpunkte des leeren Signifikanten "`Frau sein"' erkannt werden, sondern auch ihre Beziehung untereinander. Irina Scheidgens These, dass mit Ausbruch des 2. Weltkrieges, zusätzlich zum Bild der verheirateten Mutter, ein neues Frauenbild aufkam, das der berufstätigen Frau, konnte auch für ein zweites Medium bestätigt werden. Ferner konnte durch die Simultanzanalyse erkannt werden, dass es sich hierbei um antagonisierende Identitätsangebote handelt. Somit hat sich zwar der Diskurs um Weiblichkeit zwar verändert, allerdings nicht vollständig verschoben. Da sich die zwei Identifikationsmöglichkeiten jedoch gegenseitig ausschließen, muss dieser neu aufgetretene Antagonismus irgendwie ausgehandelt werden. Wir können an dieser Stelle keine abschließende Antwort geben, die Vermutung liegt jedoch nahe, dass sich mit dem Bild der Berufstätigkeit für jüngere und vor allem unverheiratete Frauen identifizierten und sie sich mit Beginn der Ehe wieder dem "`klassischen"' Bild zuwendeten. Berufstätigkeit wird dabei regelmäßig mit Sorgearbeit in Verbindung gebracht, was noch einmal auf eine wenig radikale Veränderung der Diskursstruktur verweist.
+Durch die Analyse ausgewählter Artikel der NS-Frauenwarte konnten nicht nur die Knotenpunkte des leeren Signifikanten "`Frau sein"' erkannt werden, sondern auch ihre Beziehung untereinander. Irina Scheidgens These, dass mit Ausbruch des 2. Weltkrieges ein neues Frauenbild aufkam -- zusätzlich zum Bild der verheirateten Mutter, das der berufstätigen Frau -- konnte auch für ein zweites Medium bestätigt werden. Ferner konnte durch die Simultanzanalyse erkannt werden, dass es sich hierbei um antagonisierende Identitätsangebote handelt. Somit hat sich zwar der Diskurs um Weiblichkeit verändert, allerdings nicht vollständig verschoben. Da sich die zwei Identifikationsmöglichkeiten jedoch gegenseitig ausschließen, muss dieser neu aufgetretene Antagonismus irgendwie ausgehandelt werden. Wir können an dieser Stelle keine abschließende Antwort geben, die Vermutung liegt jedoch nahe, dass sich mit dem Bild der Berufstätigkeit jüngere und vor allem unverheiratete Frauen identifizierten und sie sich mit Beginn der Ehe wieder dem "`klassischen"' Bild zuwendeten. Berufstätigkeit wird dabei regelmäßig mit Sorgearbeit in Verbindung gebracht, was noch einmal auf eine wenig radikale Veränderung der Diskursstruktur verweist.
 
-Abschließend kann aber festgehalten werden, dass eine größer angelegte Studie zur Beantwortung der Forschungsfrage sinnvoll ist. Die vorliegende Analyse kann dazu als Grundlage dienen, erfüllt jedoch nicht alle notwendigen Gütekriterien, welche an eine qualitative Inhaltsanalyse gestellt werden. Mayring schlägt mit Verweis auf Krippendorff spezifisch auf die Methode zugeschnittene Gütekriterien vor (\cite[vgl.][Kap. 7.2]{mayring_qualitative_2010}). Vor allem durch gleichzeitiges Codieren mehrerer Forschender und regelmäßigen Austausch untereinander kann die Reliabilität der Forschung gesteigert werden (\cite[vgl.][117;120-121]{mayring_qualitative_2010}). Zusätzlich sollte die Stichprobe, um als repräsentativ zu gelten, vergrößert werden, auch sollten mehr Jahrgänge analysiert werden. Zu erwarten wäre, dass sich die Diskursstruktur deutlicher herausbildet, dass sich auch die Verbindungen der Knotenpunkte untereinander, sowie ihrer Momente stärker abzeichnen. Außerdem sollten die Simultanzen deutlich eindeutiger identifizierbar sein, da quantitative "`Ausreißer"' durch die größere Anzahl an Findings ausgeglichen werden.
+Abschließend kann aber festgehalten werden, dass eine größer angelegte Studie zur Beantwortung der Forschungsfrage sinnvoll ist. Die vorliegende Analyse kann dazu als Grundlage dienen, erfüllt jedoch nicht alle notwendigen Gütekriterien, welche an eine qualitative Inhaltsanalyse gestellt werden. Mayring schlägt mit Verweis auf Krippendorff spezifisch auf die Methode zugeschnittene Gütekriterien vor (\cite[vgl.][Kap. 7.2]{mayring_qualitative_2010}). Vor allem durch gleichzeitiges Codieren mehrerer Forschender und regelmäßigen Austausch untereinander kann die Reliabilität der Forschung gesteigert werden (\cite[vgl.][117;120-121]{mayring_qualitative_2010}). Zusätzlich sollte die Stichprobe, um als repräsentativ zu gelten, vergrößert werden, auch sollten mehr Jahrgänge analysiert werden. Zu erwarten wäre, dass sich die Diskursstruktur deutlicher herausbildet und dass sich die Verbindungen der Knotenpunkte untereinander, aber auch zu ihren Momenten stärker abzeichnen. Außerdem sollten die Simultanzen eindeutiger identifizierbar sein, da quantitative "`Ausreißer"' durch die größere Anzahl an Findings ausgeglichen werden.
 
-Aus den Ergebnissen dieser Arbeit folgen zwei weitergehende Fragestellungen. Zum Einen wurde mit der \textit{NS-Frauenwarte} direktes Propagandamaterial der NSDAP untersucht; es wurde sich damit auf einen Diskursausschnitt der Führungselite bezogen. Um zu ergründen, inwieweit sich diese Identifikationsangebote innerhalb der Bevölkerung durchgesetzt haben, wäre eine Analyse von Lokalzeitungen oder gar Tagebucheinträgen vonnöten. Zum Anderen wäre es interessant zu untersuchen, wie sich das Bild der berufstätigen Frau zeitlich entwickelt. Kann es sich als mögliche Identität für Frauen durchsetzen oder gar andere Indentifikationsangebote verdrängen? Irina Scheidgen stellt in ihrer Analyse von Spielfilmen zu der Zeit fest, dass die Protagonistinnen ihre Selbständigkeit zu Ende der Filme immer zugunsten einer traditionelleren Rolle wieder aufgeben müssen. "`Die Kriegszeit stellte für die Nationalsozialisten eine Ausnahmezeit dar, in der kein neuer, dauerhafter Entwurf einer emanzipierten Frauenrolle begründet werden sollte"' (\cite[278]{scheidgen_frauenbilder_2015}). Diese Frage stellt sich gerade im Hinblick auf das fordistische Wirtschaftsmodell nach 1945, welches Frauen wieder vollständig in die Heimarbeit drängt. Dementsprechend wäre zu erwarten, dass die Kategorie \textit{Berufstätigkeit} im Diskurs wieder eine marginale Rolle einnimmt. Außerdem wäre in diesem Zusammenhang der Diskurs um die "`Trümmerfrauen"' zu untersuchen. Die feministische Forschung konnte schon in der Frage des Frauenbildes im Nationalsozialismus zeigen, dass die Antwort keinesfalls so einfach ausfällt, wie die Klischees vermuten lassen. Eine Untersuchung der Diskursstruktur von \textit{Weiblichkeit} in der Nachkriegszeit ist also wünschenswert und sicherlich aufschlussreich.
+Aus den Ergebnissen dieser Arbeit folgen zwei weitergehende Fragestellungen. Zum einen wurde mit der \textit{NS-Frauenwarte} direktes Propagandamaterial der NSDAP untersucht; es wurde sich damit auf einen Diskursausschnitt der Führungselite bezogen. Um zu ergründen, inwieweit sich diese Identifikationsangebote innerhalb der Bevölkerung durchgesetzt haben, wäre eine Analyse von Lokalzeitungen oder gar Tagebucheinträgen vonnöten. Zum anderen wäre es interessant zu untersuchen, wie sich das Bild der berufstätigen Frau zeitlich entwickelt. Kann es sich als mögliche Identität für Frauen durchsetzen oder gar andere Indentifikationsangebote verdrängen? Irina Scheidgen stellt in ihrer Analyse von Spielfilmen zu der Zeit fest, dass die Protagonistinnen ihre Selbständigkeit zu Ende der Filme immer zugunsten einer traditionelleren Rolle wieder aufgeben müssen. "`Die Kriegszeit stellte für die Nationalsozialisten eine Ausnahmezeit dar, in der kein neuer, dauerhafter Entwurf einer emanzipierten Frauenrolle begründet werden sollte"' (\cite[278]{scheidgen_frauenbilder_2015}). Diese Frage stellt sich gerade im Hinblick auf das fordistische Wirtschaftsmodell nach 1945, welches Frauen wieder vollständig in die Hausarbeit drängt. Dementsprechend wäre zu erwarten, dass die Kategorie \textit{Berufstätigkeit} im Diskurs wieder eine marginale Rolle einnimmt. Außerdem wäre in diesem Zusammenhang der Diskurs um die "`Trümmerfrauen"' zu untersuchen. Die feministische Forschung konnte schon in der Frage des Frauenbildes im Nationalsozialismus zeigen, dass die Antwort keinesfalls so einfach ausfällt, wie die Klischees vermuten lassen. Eine Untersuchung der Diskursstruktur von \textit{Weiblichkeit} in der Nachkriegszeit ist also wünschenswert und sicherlich aufschlussreich.
 
 \newpage
 
@@ -216,7 +214,7 @@ Aus den Ergebnissen dieser Arbeit folgen zwei weitergehende Fragestellungen. Zum
 
 \addpart{\appendixname}
 
-\section{Kodierleitfaden}
+\section*{Kodierleitfaden}
 
 \subsection*{Kategoriensystem}
 
